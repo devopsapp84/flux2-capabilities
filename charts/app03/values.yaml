@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   pullPolicy: IfNotPresent
   hub: ghcr.io
-  repository: devopsapp84/flux2-capabilities/app02
+  repository: devopsapp84/flux2-capabilities/app01
   tag: latest
 imagePullSecrets: []
 nameOverride: ""
@@ -33,7 +33,7 @@ securityContext: {}
 
 service:
   type: LoadBalancer
-  port: 81
+  port: 83
 
 ingress:
   enabled: false
