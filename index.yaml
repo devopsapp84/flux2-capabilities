@@ -2,6 +2,14 @@ apiVersion: v1
 entries:
   app01:
   - apiVersion: v2
+    created: "2022-02-07T17:29:18.590674667Z"
+    description: Sample application based on Flask
+    digest: 0c3958a2d0cd77caac9a820de01e0425b870097a93d9dde25ea77ded3679b4e0
+    name: app01
+    urls:
+    - https://github.com/devopsapp84/flux2-capabilities-clean/releases/download/app01-0.0.6/app01-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
     created: "2022-02-07T16:59:39.466136217Z"
     description: Sample application based on Flask
     digest: cd36a58a35c40ed8e502f36afd3144f9515a10fa7828d668b50ddeedbbe67449
@@ -34,6 +42,14 @@ entries:
     - https://github.com/devopsapp84/flux2-capabilities-clean/releases/download/app01-0.0.1/app01-0.0.1.tgz
     version: 0.0.1
   app02:
+  - apiVersion: v2
+    created: "2022-02-07T17:29:18.788967861Z"
+    description: Sample application based on Flask
+    digest: 99fb916d88d403da6692366ba7bdc74ee4c3ce33acd35e2052abffd64e3d0228
+    name: app02
+    urls:
+    - https://github.com/devopsapp84/flux2-capabilities-clean/releases/download/app02-0.0.4/app02-0.0.4.tgz
+    version: 0.0.4
   - apiVersion: v2
     created: "2022-02-07T14:25:52.219356612Z"
     description: Sample application based on Flask
@@ -83,4 +99,4 @@ entries:
     urls:
     - https://github.com/devopsapp84/flux2-capabilities-clean/releases/download/app03-0.0.1/app03-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-07T16:59:39.466157827Z"
+generated: "2022-02-07T17:29:18.78900036Z"
