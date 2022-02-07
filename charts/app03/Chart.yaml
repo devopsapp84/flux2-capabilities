@@ -1,4 +1,4 @@
 apiVersion: v2
 description: Sample application based on Flask
 name: app03
-version: 0.0.1
+version: 0.0.4
