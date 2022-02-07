@@ -7,17 +7,15 @@ metadata:
 spec:
   chart:
     spec:
-      chart: ./charts/app03
+      chart: app03
       sourceRef:
-        kind: GitRepository
-        name: flux-system
+        kind: HelmRepository
+        name: apprepo
+  interval: 1m0s
   install:
     createNamespace: true
-  interval: 1m0s
   targetNamespace: sample-apps
   values:
     service:
-      name: app02
-      port: 83
       type: LoadBalancer
-
+      port: 83

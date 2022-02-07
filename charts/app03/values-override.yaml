@@ -1,0 +1,4 @@
+service:
+  name: app02
+  type: LoadBalancer
+  port: 83
