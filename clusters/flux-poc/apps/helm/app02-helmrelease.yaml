@@ -2,12 +2,12 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: app03
+  name: app02
   namespace: flux-system
 spec:
   chart:
     spec:
-      chart: ./charts/app03
+      chart: ./charts/app02
       sourceRef:
         kind: GitRepository
         name: flux-system
@@ -18,6 +18,6 @@ spec:
   values:
     service:
       name: app02
-      port: 83
+      port: 82
       type: LoadBalancer
 
