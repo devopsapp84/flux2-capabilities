@@ -28,7 +28,7 @@ jobs:
         uses: helm/chart-releaser-action@v1.3.0
         with:
           charts_dir: charts
-          config: cr.yaml
+#          config: cr.yaml
           charts_repo_url: https://devopsapp84.github.io/flux2-capabilities-clean/
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
