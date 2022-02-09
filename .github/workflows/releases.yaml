@@ -29,7 +29,8 @@ jobs:
         with:
           charts_dir: charts
 #          config: cr.yaml
-          charts_repo_url: https://devopsapp84.github.io/flux2-capabilities-clean/
+#          charts_repo_url: https://devopsapp84.github.io/flux2-capabilities-clean/
+          charts_repo_url: https://github.com/devopsapp84/flux2-capabilities-clean.git
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           CR_SKIP_EXISTING: "true"
